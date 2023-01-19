@@ -1,7 +1,7 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
+title: Liquid Perfection Jax
+subtitle: 
+email: liquidperfectionjax@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
@@ -11,7 +11,7 @@ city: Nashville
 state: TN
 zip_code: 55555
 country: United States of America
-phone: (716) 555-5555
+phone: (904) 329-5312
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -24,11 +24,11 @@ tiles-count: 6
 socials:
   GitHub: https://github.com/andrewbanchich
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus: 
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
+  LinkedIn: 
+  Twitter: 
+  Facebook: https://www.facebook.com/Liquid-Perfection-1374511976188884/
   Slack:
 
 # build settings
