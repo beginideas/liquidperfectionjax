@@ -6,10 +6,10 @@ description: Liquid Perfection offers the highest quality Epoxy Floor Coating se
 baseurl: "/liquidperfectionjax" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 3051 Waters View Circle
+city: Orange Park
+state: FL
+zip_code: 32073
 country: United States of America
 phone: (904) 329-5312
 
