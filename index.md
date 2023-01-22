@@ -4,7 +4,7 @@ title: Home
 landing-title: 'Liquid Perfection'
 description: null
 image: null
-video: IMG_6995.mov
+video: assets/images/IMG_6995.mov
 author: null
 show_tile: false
 ---
