@@ -20,9 +20,52 @@
             </header>
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
+		    
+		    <!-- Form -->
+<h3>Form</h3>
+
+<form method="post" action="#">
+	<div class="row uniform">
+		<div class="6u 12u$(xsmall)">
+			<input type="text" name="name" id="name" value="" placeholder="Name" />
+		</div>
+		<div class="6u$ 12u$(xsmall)">
+			<input type="email" name="email" id="email" value="" placeholder="Email" />
+		</div>
+		<div class="6u$ 12u$(xsmall)">
+			<input type="number" name="phone" id="phone" value="" placeholder="Phone" />
+		</div>
+		<!-- Break -->
+		<div class="12u$">
+			<div class="select-wrapper">
+				<select name="flooring" id="flooring">
+					<option value="">- Flooring Type -</option>
+					<option value="Flake">Flake</option>
+					<option value="Reflector">Reflector</option>
+					<option value="Custom">Custom</option>
+				</select>
+			</div>
+		</div>
+		<!-- Break -->
+		
+		<div class="6u$ 12u$(small)">
+			<input type="checkbox" id="demo-human" name="demo-human" checked>
+			<label for="demo-human">I am a human</label>
+		</div>
+		<!-- Break -->
+		
+		<div class="12u$">
+			<ul class="actions">
+				<li><input type="submit" value="Go!" class="special" /></li>
+				<li><input type="reset" value="Reset" /></li>
+			</ul>
+		</div>
+	</div>
+</form>
+		    
+           <!--     <ul class="actions">
                     <li><a href="#one" class="button next scrolly">Free Estimate!</a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
 	 <!--   <video 
