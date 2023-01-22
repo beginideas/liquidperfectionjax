@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Liquid Perfection'
+landing-title: 'Liquid Perfection - CALL NOW! 904-329-5312'
 description: null
 image: assets/images/IMG_6995.mp4
 video: assets/images/IMG_6995.mp4
