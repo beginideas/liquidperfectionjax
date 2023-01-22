@@ -1,7 +1,7 @@
 ---
 title: Our Process
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: 'Our award winning process is due to our 20+ Veteran serving ATTENTION TO DETAIL!'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
