@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'Liquid Perfection'
 description: null
-image: null
+image: assets/images/IMG_6995.mp4
 video: assets/images/IMG_6995.mp4
 author: null
 show_tile: false
