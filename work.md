@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our Work
-description: Lorem ipsum dolor est
+description: Check out our latest creations.
 image: assets/images/OurWork.png
 nav-menu: true
 ---
