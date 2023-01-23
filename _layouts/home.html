@@ -10,53 +10,51 @@
 
 <body>
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <!-- <h1>{{ page.landing-title }}</h1> -->
-                <img src="{{ 'assets/images/logo.png' | relative_url }}" alt="logo"/>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-		
-              <!--  <ul class="actions">
+  <!-- Banner -->
+  <section id="banner" class="major">
+    <div class="inner">
+      <a href="tel:{{ site.phone }}">
+        <div id="callnow">
+          <h1>Call Now! (904) 329-5312</h1>
+        </div>
+      </a>
+      <!-- <header class="major">
+        <h1>{{ page.landing-title }}</h1>
+      </header> -->
+      
+      <div class="content">
+        <p style="text-transform: uppercase;">{{ site.description }}</p>
+        <!--  <ul class="actions">
                     <li><a href="#one" class="button next scrolly">Free Estimate!</a></li>
                 </ul> -->
-            </div>
-        </div>
-	
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <div id="main">
+
+    <!-- One -->
+    {% include tiles.html %}
+
+    <!-- Two -->
+    <section id="two">
+      <div class="inner">
+        <header class="major">
+          <h2>Flooring Options</h2>
+        </header>
+        <p>{{ content }}</p>
+        <ul class="actions">
+          <li><a href="landing.html" class="button next">Free Estimate</a></li>
+        </ul>
+      </div>
     </section>
 
-    <a href="tel:{{ site.phone }}">
-        <section id="callnow">
-            <h1>Call Now! (904) 329-5312</h1>
-        </section>
-    </a>
-    <!-- Main -->
-    <div id="main">
+  </div>
 
-        <!-- One -->
-        {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Flooring Options</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Free Estimate</a></li>
-                </ul>
-            </div>
-        </section>
-
-    </div>
-
-    {% include footer.html %}
+  {% include footer.html %}
 
 </body>
 
