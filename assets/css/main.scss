@@ -79,13 +79,20 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
-	#banner > div > header.major {
-		display: flex;
-	}
-	#banner > div > header.major > img {
-		border-radius: 50%;
-		margin: auto;
-		width: 100%;
-		height: auto;
-		max-width: 280px;
-	}
+#banner > div > header.major {
+	display: flex;
+}
+#banner > div > header.major > img {
+	border-radius: 50%;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	max-width: 280px;
+}
+#callnow {
+	display: flex;
+	width: 100%;
+	background-color: rgb(204, 69, 59);
+	color: white;
+	padding: 1em;
+}
