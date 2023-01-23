@@ -1,11 +1,11 @@
 ---
 layout: post
-title: We will contact you shortly!
+title: Thank you for your free estimate submission!
 description: 
-image: assets/images/OurWork.png
+image: 
 nav-menu: false
 ---
 
-Thank you for your submission. We will contact you shortly!
+Thank you for your free estimate submission. We will contact you shortly!
 
 
