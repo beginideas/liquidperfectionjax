@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Thank you for your free estimate submission!
 description: 
 image: 
