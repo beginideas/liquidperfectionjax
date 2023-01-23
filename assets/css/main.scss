@@ -79,10 +79,10 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
-	.major {
+	#banner > div > header.major {
 		display: flex;
 	}
-	.major > img {
+	#banner > div > header.major > img {
 		border-radius: 50%;
 		margin: auto;
 		width: 100%;
