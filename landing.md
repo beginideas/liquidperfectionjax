@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Sed amet aliquam</h2>
 		</header>
-		<p>NOur award winning process is due to our 20+ Veteran serving ATTENTION TO DETAIL!</p>
+		<p>Our award winning process is due to our 20+ Veteran serving ATTENTION TO DETAIL!</p>
 	</div>
 </section>
 
