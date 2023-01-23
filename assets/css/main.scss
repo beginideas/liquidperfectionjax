@@ -94,5 +94,9 @@ header#header > a > img {
 	text-align: center;
 }
 #callnow > h1 {
-	margin-bottom: 0;
+	margin-bottom: 1px;
+}
+#callnow > h1 > span {
+	font-size:2rem;
+	vertical-align:middle;
 }
