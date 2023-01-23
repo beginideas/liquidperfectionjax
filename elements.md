@@ -17,7 +17,7 @@ nav-menu: true
 
 <!-- Content -->
 <h2 id="content">Passionate Flooring Experts</h2>
-<p>Liquid Perfection offers the highest quality Epoxy Floor Coating service available. Our veteran-owned small business has coated everything from large scale industrial warehouses all the way to your garage and man cave! <br /> <br /> </p>
+<p>Liquid Perfection offers the highest quality Epoxy Floor Coating service available. Our veteran-owned service disabled small business has coated everything from large scale industrial warehouses all the way to your garage and man cave! <br /> <br /> </p>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
