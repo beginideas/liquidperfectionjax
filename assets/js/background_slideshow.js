@@ -7,7 +7,7 @@ images[1] = 'http://www.choctawindianfair.com/liquidperfectionjax/assets/images/
 images[2] = 'http://www.choctawindianfair.com/liquidperfectionjax/assets/images/pic03.jpg';
 
 function changePicture() {
-    document.body.style.backgroundImage = "url(" + images[i] + ")";
+    document.#banner.style.backgroundImage = "url(" + images[i] + ")";
 
     if (i < images.length - 1) {
         i++;
