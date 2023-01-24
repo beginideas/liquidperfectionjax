@@ -78,3 +78,36 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
+
+header#header > a > img {
+	max-width: 120px;
+	border-radius: 50%;
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#callnow {
+	width: 100%;
+	background-color: rgb(204, 69, 59);
+	color: white;
+	text-align: center;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+#callnow > h1 {
+	margin-bottom: 1px;
+	font-size: 2em;
+}
+#callnow > h1 > span {
+	font-size: 0.5em;
+	vertical-align: middle;
+}
+#callnow > h1 > span::before {
+	line-height: 2.2em;
+}
+#banner {
+	background-image: url("{{ '/assets/images/work/ash.webp' | absolute_url }}");
+	background-position: center;
+	background-size: cover;
+}
