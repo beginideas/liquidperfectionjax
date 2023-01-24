@@ -107,7 +107,7 @@ header#header > a > img {
 	line-height: 2.2em;
 }
 #banner {
-	background-image: url("http://www.choctawindianfair.com/liquidperfectionjax/assets/images/pic01.jpg");
+	background-image: url("{{ '/assets/images/work/ash.webp' | absolute_url }}");
 	background-position: center;
 	background-size: cover;
 }
