@@ -1,0 +1,38 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+	<header id="header" {% if page.layout=="landing" %} class="alt style2" {% endif %}{% if page.layout=="home" %}
+		class="alt" {% endif %}>
+		<!-- <a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle
+				}}</span></a> -->
+		<a href="{{ "" | absolute_url }}" class="logo"><img src="{{ '/assets/images/logo.png'
+				| absolute_url }}" alt="Liquid Perfection" /></a>
+		<a href="https://www.facebook.com/Liquid-Perfection-1374511976188884/" class="icon alt fa-facebook" target="_blank"
+			rel="noopener noreferrer" aria-label="Facebook">
+			<span class="label">Facebook</span>
+		</a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			{% for page in site.pages %}
+			{% if page.layout == "home" %}
+			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+			{% for page in site.html_pages %}
+			{% if page.layout != "home" and page.nav-menu == true %}
+			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		<ul class="actions vertical">
+			<li><a href="#" class="button special fit">Get a Free Estimate</a></li>
+			<!-- <li><a href="#" class="button fit">Log In</a></li> -->
+		</ul>
+	</nav>

@@ -1,0 +1,44 @@
+# site settings
+title: Liquid Perfection 
+subtitle: 
+email: liquidperfectionjax@gmail.com
+description: <h3>GET A FREE ESTIMATE!</h3>  <!--  ----------------------------------------------------------------------  --> <!--  NOTE Please add the following <META> element to your page <HEAD>.      --> <!--  If necessary, please modify the charset parameter to specify the        --> <!--  character set of your HTML page.  --> <!--  ----------------------------------------------------------------------  --> <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"> <script src="https://www.google.com/recaptcha/api.js"></script> <script> function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); </script> <!--  ----------------------------------------------------------------------  --> <!--  NOTE Please add the following <FORM> element to your page.             --> <!--  ----------------------------------------------------------------------  --> <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST"> <input type=hidden name='captcha_settings' value='{"keyname":"BeginIdeas","fallback":"true","orgId":"00Dj0000001sPI0","ts":""}'> <input type=hidden name="oid" value="00Dj0000001sPI0"> <input type=hidden name="retURL" value="https://beginideas.github.io/liquidperfectionjax/2016/08/25/thankyou.html"> <!--  ----------------------------------------------------------------------  --> <!--  NOTE These fields are optional debugging elements. Please uncomment    --> <!--  these lines if you wish to test in debug mode.--> <!--  <input type="hidden" name="debug" value=1>                              --> <!--  <input type="hidden" name="debugEmail"--> <!--  value="usman.uddin@beginideas.com">--> <!--  ----------------------------------------------------------------------  --> <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br> <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br> <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br> <div class="g-recaptcha" data-sitekey="https://www.google.com/recaptcha/admin/site/351254726/setup"></div><br> <input type="submit" name="submit"> </form>
+baseurl: "/liquidperfectionjax" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 3051 Waters View Circle
+city: Orange Park
+state: FL
+zip_code: 32073
+country: United States of America
+phone: (904) 329-5312
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: 
+  GitLab:
+  Google-Plus: 
+  Instagram:
+  LinkedIn: 
+  Twitter: 
+  Facebook: https://www.facebook.com/Liquid-Perfection-1374511976188884/
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
